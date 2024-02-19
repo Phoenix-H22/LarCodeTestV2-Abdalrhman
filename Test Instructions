@@ -1,0 +1,21 @@
+Application Description:
+Construct a "Book Club System" where users can join multiple book clubs, and likewise, book clubs can have multiple members. Each book club can have a list of books they plan to read or have read. Users can view all book clubs, join them, and see the list of books in each club.
+
+Requirements:
+    1. Database & Migrations:
+        Design and implement necessary migrations for entities like BookClub and Book. Models            area already created. You can see suggested attributes inside the models.
+
+    2. Models & Relationships:
+        Set up the relationships among the models.
+
+    3. API Endpoints:
+        Design CRUD (Create and Index only) API endpoints for Book. Only authorized users should         be able to create. Create the routes as well.
+
+    4. Service Layer:
+      Complete the following two tasks in the BookClubService.
+      - Optimize the Service: Check the code and make sure there is no performance issues in the         code or optimization problems.
+      - Expand the getDetailedBookClubsForUser method to also fetch and include the total number         of members in each book club.
+
+Notes:
+
+Adhere to Laravel's best practices, ensuring your code is clean, structured, and documented. Implement error-handling mechanisms for potential pitfalls and consider edge cases. If you add any additional features or tools, elucidate your decisions.
